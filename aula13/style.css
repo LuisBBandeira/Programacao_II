@@ -1,0 +1,49 @@
+* {
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+background-color: rgb(195, 147, 243);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-height: 100dvh;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2{
+    text-align: center;
+}
+
+#images-container {
+    flex: 1;
+    overflow-y: scroll;
+    border: 2px solid darkgreen;
+}
+#audio-container {
+    display: flex;
+    flex: 1;
+    min-height: 90px;
+}
+button {
+    flex: 1;
+    border-color: darkgreen;
+}
+img {
+    width: 100%;
+}
+
+.active {
+    border: 5px solid darkgreen;
+}
