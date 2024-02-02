@@ -1,0 +1,12 @@
+{
+    "name": "aula14",
+    "version": "1.0.0",
+    "description":"",
+    "type": "module",
+    "main": "Maintest.js",
+    "scripts":{
+        "test": ""
+    },
+    "":""
+
+}
