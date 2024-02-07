@@ -1,0 +1,32 @@
+
+
+body{
+    background-color: rgb(31, 28, 28);
+}
+
+header{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    color: white;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100%;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 160px;
+    width: 320px;
+}
+
+

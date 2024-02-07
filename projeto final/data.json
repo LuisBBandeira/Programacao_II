@@ -1,0 +1,66 @@
+[
+
+    {
+        "type" : "painting",
+        "title": "Las Meninas",
+        "medium": "oil",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/800px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+        "artist": "Diego Velázquez"
+    },
+    {
+        "type" : "painting",
+        "title": "Christ in the Storm on the Sea of Galilee",
+        "medium": "oil",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg/800px-Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg",
+        "artist": "Rembrandt van Rijn"
+    },
+    {
+        "type" : "painting",
+        "title": "La Liberté guidant le peuple",
+        "medium": "oil",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg/1024px-Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg",
+        "artist": "Eugène Delacroix"
+    },
+    {
+        "type" : "photo",
+        "title": "The Falling Man",
+        "medium": "Photograph",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/05/The_Falling_Man.jpg",
+        "artist": "Richard Drew"
+    },
+    {
+        "type" : "photo",
+        "title": "",
+        "medium": "",
+        "image": "",
+        "artist": ""
+    },
+    {
+        "type" : "photo",
+        "title": "",
+        "medium": "",
+        "image": "",
+        "artist": ""
+    },
+    {
+        "type" : "sculpture",
+        "title": "",
+        "medium": "",
+        "image": "",
+        "artist": ""
+    },
+    {
+        "type" : "sculpture",
+        "title": "",
+        "medium": "",
+        "image": "",
+        "artist": ""
+    },
+    {
+        "type" : "sculpture",
+        "title": "",
+        "medium": "",
+        "image": "",
+        "artist": ""
+    }
+]
