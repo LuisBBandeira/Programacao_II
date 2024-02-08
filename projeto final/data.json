@@ -30,37 +30,37 @@
     },
     {
         "type" : "photo",
-        "title": "",
-        "medium": "",
-        "image": "",
-        "artist": ""
+        "title": "View from the Window at Le Gras",
+        "medium": "heliographic photography",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsmarthistory.org%2Fjoseph-nicephore-niepce-view-from-the-window-at-le-gras%2F&psig=AOvVaw2NGH9WS66_0OUM7gotEeOO&ust=1707506449889000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMjs6q27nIQDFQAAAAAdAAAAABAD",
+        "artist": "Joseph Nicéphore Niépce"
     },
     {
         "type" : "photo",
-        "title": "",
-        "medium": "",
-        "image": "",
-        "artist": ""
+        "title": "Peninsular War veteran and his wife",
+        "medium": "Ambrotype",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3A1860_Anonyme_Un_v%25C3%25A9t%25C3%25A9ran_et_sa_femme_Ambrotype.jpg&psig=AOvVaw22r60hKft1oRcgxWo-FGoV&ust=1707506894497000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLixrIK9nIQDFQAAAAAdAAAAABAD",
+        "artist": "Unknown author"
     },
     {
         "type" : "sculpture",
-        "title": "",
-        "medium": "",
-        "image": "",
-        "artist": ""
+        "title": "The Statue of Liberty",
+        "medium": ["copper","gold","steel","Cast iron"],
+        "image": "https://en.wikipedia.org/wiki/File:Lady_Liberty_under_a_blue_sky_(cropped).jpg",
+        "artist": "Frédéric Auguste Bartholdi"
     },
     {
         "type" : "sculpture",
-        "title": "",
-        "medium": "",
-        "image": "",
-        "artist": ""
+        "title": "Ecstasy of Saint Teresa",
+        "medium": "White marble",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEcstasy_of_Saint_Teresa&psig=AOvVaw11W5Rwll7UJ1uvDqax2-sN&ust=1707507239259000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOiQkKa-nIQDFQAAAAAdAAAAABAD",
+        "artist": "Gian Lorenzo Bernini"
     },
     {
         "type" : "sculpture",
-        "title": "",
-        "medium": "",
-        "image": "",
-        "artist": ""
+        "title": "David ",
+        "medium": "Carrara marble",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDavid_%2528Michelangelo%2529&psig=AOvVaw10fgzC7YO3np2s8oJryAbb&ust=1707507445497000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDIl4q_nIQDFQAAAAAdAAAAABAD",
+        "artist": "Michelangelo"
     }
 ]
