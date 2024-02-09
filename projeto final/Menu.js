@@ -18,6 +18,27 @@ export const menu = () => {
     }
     divBtns();
 
+    const backDiv = () => {
+        const body = document.querySelector("body");
+        const newDiv = document.createElement("div");
+        body.appendChild(newDiv);
+        newDiv.className = "none";
+        newDiv.id = "goBack";
+    }
+
+    backDiv();
+
+    const backArrow = () =>{
+        const returnDiv = document.getElementById("goBack") 
+        const btn = document.createElement("button")
+        returnDiv.appendChild(btn)
+        btn.className = "bArrow"
+
+        return returnDiv
+    }
+
+    const returnDiv = backArrow();
+
     let arrBtns = ["painting", "photo", "sculpture"];
 
     const btns = () =>{
@@ -28,6 +49,33 @@ export const menu = () => {
             btn.innerText = type;
             btn.className = type + "_btn";
         });
+        return div
     }
-    btns();
-}
+    const div = btns();
+
+    const btn1_none = document.querySelector(".painting_btn");
+    btn1_none.onclick = () => {
+        div.className = "none";
+        returnDiv.className = "goBack"
+
+    }
+
+    const btn2_none = document.querySelector(".photo_btn");
+    btn2_none.onclick = () => {
+        div.className = "none";
+        returnDiv.className = "goBack"
+    }
+
+    const btn3_none = document.querySelector(".sculpture_btn");
+    btn3_none.onclick = () => {
+        div.className = "none";
+        returnDiv.className = "goBack"
+
+    }
+
+    const btnBack_none = document.querySelector(".bArrow");
+    btnBack_none.onclick = () => {
+        returnDiv.className = "none"
+        div.className = "btns"
+    }
+ }

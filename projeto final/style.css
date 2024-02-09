@@ -18,6 +18,22 @@ header{
     display: none;
 }
 
+.goBack{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.bArrow{
+    height: 100px;
+    width: 150px;
+    background-color: red;
+    background-image: url("https://static-00.iconduck.com/assets.00/arrow-left-icon-512x357-pi5vmh11.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+}
+
 button{
     height: 160px;
     width: 320px;
