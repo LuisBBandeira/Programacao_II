@@ -86,5 +86,21 @@ button{
     cursor: pointer;
 }
 
+.showDiv{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+img{
+    height: 160px;
+    width: 320px;
+    border-color: black;
+    max-width: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 
 

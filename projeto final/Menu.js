@@ -1,3 +1,7 @@
+import Gallery from "./Gallery.js";
+
+const gallery = new Gallery();
+
 export const menu = () => {
     const header = () =>{
         const body = document.querySelector("body");
@@ -28,6 +32,30 @@ export const menu = () => {
 
     backDiv();
 
+
+    const showDiv = () => {
+        const body = document.querySelector("body");
+        const newDiv = document.createElement("div");
+        body.appendChild(newDiv);
+        newDiv.className = "none";
+        newDiv.id = "showDiv";
+
+        return newDiv
+    }
+
+    const show = showDiv();
+
+    const image = () => {
+        const div = document.querySelector("#showDiv")
+        const newImage = document.createElement("div")
+        div.appendChild(newImage)
+        newImage.id = "images-container"
+    }
+
+    image()
+
+
+
     const backArrow = () =>{
         const returnDiv = document.getElementById("goBack") 
         const btn = document.createElement("button")
@@ -52,30 +80,33 @@ export const menu = () => {
         return div
     }
     const div = btns();
-
+    
     const btn1_none = document.querySelector(".painting_btn");
     btn1_none.onclick = () => {
         div.className = "none";
         returnDiv.className = "goBack"
-
+        show.className = "showDiv"
     }
 
     const btn2_none = document.querySelector(".photo_btn");
     btn2_none.onclick = () => {
         div.className = "none";
         returnDiv.className = "goBack"
+        show.className = "showDiv"
+        painting.className = "none"
     }
 
     const btn3_none = document.querySelector(".sculpture_btn");
     btn3_none.onclick = () => {
         div.className = "none";
         returnDiv.className = "goBack"
-
+        show.className = "showDiv"
     }
 
     const btnBack_none = document.querySelector(".bArrow");
     btnBack_none.onclick = () => {
         returnDiv.className = "none"
+        show.className = "none"
         div.className = "btns"
     }
  }

@@ -46,7 +46,7 @@
         "type" : "sculpture",
         "title": "The Statue of Liberty",
         "medium": ["copper","gold","steel","Cast iron"],
-        "image": "https://en.wikipedia.org/wiki/File:Lady_Liberty_under_a_blue_sky_(cropped).jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Lady_Liberty_under_a_blue_sky_%28cropped%29.jpg/1200px-Lady_Liberty_under_a_blue_sky_%28cropped%29.jpg",
         "artist": "Frédéric Auguste Bartholdi"
     },
     {
