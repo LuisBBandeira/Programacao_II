@@ -38,6 +38,7 @@ h2 {
     background-position: right 24px center;
 }
 
+
 button{
     height: 160px;
     width: 320px;
@@ -114,5 +115,9 @@ img{
     object-fit: contain;
 }
 
+#reset{
+    height: 100px;
+    width: 150px;
+}
 
 

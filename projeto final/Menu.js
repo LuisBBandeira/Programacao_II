@@ -1,7 +1,3 @@
-import Gallery from "./Gallery.js";
-
-const gallery = new Gallery();
-
 export const menu = () => {
     const header = () =>{
         const body = document.querySelector("body");
@@ -68,6 +64,7 @@ export const menu = () => {
         const button = document.createElement("button");
         div.appendChild(button);
         button.className = "none";
+        button.id = "reset"
         button.innerText = "go back";
     }
 
@@ -147,14 +144,17 @@ export const menu = () => {
         sculpture.forEach(sculpture => sculpture.className = "sculpture");
         const newH2 = document.querySelector("h2");
         newH2.innerHTML = "";
+        const reset = document.querySelector("#reset");
+        reset.className = "none"
+        document.querySelector('.ptn1').style.display = "block"
+        document.querySelector('.ptn2').style.display = "block"
+        document.querySelector('.ptn3').style.display = "block"
+        document.querySelector('.ph1').style.display = "block"
+        document.querySelector('.ph2').style.display = "block"
+        document.querySelector('.ph3').style.display = "block"
+        document.querySelector('.sc1').style.display = "block"
+        document.querySelector('.sc2').style.display = "block"
+        document.querySelector('.sc3').style.display = "block"
     }
-
-    // const btn_ptn1 = document.querySelector('ptn1');
-    // const btn_ptn2 = document.querySelector('ptn2');
-    // const btn_ptn3 = document.querySelector('pt3');
-    // btn_ptn1.onclick = () =>{
-    //     document.querySelector('ptn2').style.zIndex = "-1"
-    //     document.querySelector('pt3').style.zIndex = "-1"
-    //  }
 
  }
