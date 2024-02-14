@@ -36,9 +36,9 @@ export default class Gallery  {
             this.#currentart.active = false;
         }
 
-        this.#currentart = this.#artpieces.find(art => art.name === art.name);
+        this.#currentart = this.#artpieces.find(art => art.title === art.title);
         this.#currentart.active = true;
-        document.querySelector("h2").innerText = this.#currentart.name;
+        document.querySelector("h2").innerText = this.#currentart.title;
         
         this.#callback(art);
     }
@@ -49,15 +49,7 @@ export default class Gallery  {
         });
     }
 
-    getArt(name) {
-        return this.#artpieces.find(art => art.name === name);
-    }
-
-    images(type) {
-        const arr = this.#artpieces.filter((item) => item.type === type);
-        console.log(arr);
-        return arr;
-    }
-
-    
+    getArt(title) {
+        return this.#artpieces.find(art => art.title === title);
+    }  
 }

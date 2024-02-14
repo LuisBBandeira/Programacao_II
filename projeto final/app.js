@@ -8,15 +8,13 @@ window.onload = async () => {
     menu();
 
     const gallery = new Gallery((art) =>{
-        console.log(art)
+        document.querySelector("h2").innerText = art.introduce();
+        console.log(art);
     });
 
     result.forEach(item => {
         gallery.addArt(item);
     });
-
-    
-    gallery.images(result.type);
 
 }
 

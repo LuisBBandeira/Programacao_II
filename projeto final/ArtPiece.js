@@ -11,19 +11,29 @@ export default class ArtPiece{
         this.#imageElem.src = this.#data.image;
         this.#imageElem.onclick = () => this.#callback();
 
+
         const container = document.querySelector("#images-container");
+        const div = document.createElement("div")
+        container.appendChild(div)
         const a = document.createElement("a")
-        container.appendChild(a)
+        div.appendChild(a);
+        div.className = this.#data.type
+        div.id = this.#data.type
         a.appendChild(this.#imageElem);
-        a.className = this.#data.type
+        a.className = this.#data.id
+    }
+    
+    introduce() {
+        return  this.#data.title;
     }
 
-    get data() {
-        return this.#data;
-    }
 
     get type() {
         return this.#data.type;
+    }
+    
+    get image() {
+        return this.#data.image;
     }
 
     get artist() {
@@ -37,4 +47,17 @@ export default class ArtPiece{
     get title() {
         return this.#data.title;
     }
+
+    get id () {
+        return this.#data.id
+    }
+
+    get active() {
+        return this.#imageElem.className.length !== 0;
+    }
+    set active(value) {
+        this.#imageElem.className = value ? 'active' : '';
+    }
+
+    
 }
