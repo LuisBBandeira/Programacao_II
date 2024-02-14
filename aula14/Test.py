@@ -1,8 +1,8 @@
 from py.mainTest import MainTest
 
-class Test2(MainTest):
+class Test(MainTest):
     def __init__(self, name):
         super().__init__(name)
 
-    def sayAge(self):
-        return "Hello i'm " + super().sayAge()
+    def sayHello(self):
+        return "Hello i'm " + super().sayHello()

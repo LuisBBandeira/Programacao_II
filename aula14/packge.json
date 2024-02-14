@@ -1,12 +1,12 @@
 {
     "name": "aula14",
     "version": "1.0.0",
-    "description":"",
+    "description": "",
     "type": "module",
-    "main": "Maintest.js",
-    "scripts":{
-        "test": ""
+    "main": "MainTest.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "":""
-
-}
+    "author": "",
+    "license": "ISC"
+  }
